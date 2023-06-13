@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{F38AF9D8-9959-4FCF-9C89-70B83C6E4F54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{E410E0D5-269F-4874-958A-577EBC4B308F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{10AA2FBB-5BFE-4FAD-81DB-71F81A96982E}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\AboutThisFolder.md = Dlls\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompanionFiles", "CompanionFiles", "{6E233E71-0A5E-43E1-B612-37D6C2EE0E1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skyline DataMiner", "Skyline DataMiner", "{71EF0A98-2D1B-40D6-A8DD-CDD084397B1C}"
+	ProjectSection(SolutionItems) = preProject
+		CompanionFiles\Skyline DataMiner\AboutThisFolder.md = CompanionFiles\Skyline DataMiner\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{EF960107-921C-4A13-82CC-92D114F64218}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\AboutThisFolder.md = Documentation\AboutThisFolder.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{5DAF3F6A-C624-4A6A-969F-7A224ADA326A}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JamieRSCriptV1.0", "JamieRSCriptV1.0", "{F0E7A0E0-36BF-4F71-9CF4-0222F0AD598C}"
+	ProjectSection(SolutionItems) = preProject
+		JamieRSCriptV1.0.xml = JamieRSCriptV1.0.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{091280D4-10EA-489F-87EC-D39AA2E1DA6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamieRSCriptV1.0_1", "JamieRSCriptV1.0_1\JamieRSCriptV1.0_1.csproj", "{00F5D364-5692-41B7-BD14-93D8806F7F51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00F5D364-5692-41B7-BD14-93D8806F7F51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00F5D364-5692-41B7-BD14-93D8806F7F51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00F5D364-5692-41B7-BD14-93D8806F7F51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00F5D364-5692-41B7-BD14-93D8806F7F51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{71EF0A98-2D1B-40D6-A8DD-CDD084397B1C} = {6E233E71-0A5E-43E1-B612-37D6C2EE0E1C}
+		{5DAF3F6A-C624-4A6A-969F-7A224ADA326A} = {F38AF9D8-9959-4FCF-9C89-70B83C6E4F54}
+		{F0E7A0E0-36BF-4F71-9CF4-0222F0AD598C} = {E410E0D5-269F-4874-958A-577EBC4B308F}
+		{091280D4-10EA-489F-87EC-D39AA2E1DA6F} = {F0E7A0E0-36BF-4F71-9CF4-0222F0AD598C}
+		{00F5D364-5692-41B7-BD14-93D8806F7F51} = {091280D4-10EA-489F-87EC-D39AA2E1DA6F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75678F31-4D8F-43A2-985D-1EBE05B83A16}
+	EndGlobalSection
+EndGlobal
